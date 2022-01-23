@@ -23,7 +23,7 @@ const Signup = () => {
       .then((data) => {
         // console.log("data is signup>>", data);
         // setMsg(data)
-        window.location.replace("https://sss-frontend.herokuapp.com/signin");
+        window.location.replace("https://sss-frontend-007.vercel.app/signin");
         setValues({ ...values, username: "", email: "", password: "" });
       })
       .catch((err) => setMsg(err));

@@ -20,7 +20,7 @@ const Signin = () => {
     window.location.reload(false);
     // console.log("isAuthen", isAuthenticated());
     if (isAuthenticated()) {
-      window.location.replace("https://sss-frontend.herokuapp.com/");
+      window.location.replace("https://sss-frontend-007.vercel.app/");
     }
   };
 
