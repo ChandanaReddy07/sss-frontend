@@ -237,7 +237,7 @@ export default function Apptest() {
                     // console.log("isAuthen", isAuthenticated());
                     if (!isAuthenticated()) {
                       window.location.replace(
-                        "https://sss-frontend.herokuapp.com/"
+                        "https://sss-frontend-007.vercel.app/"
                       );
                     }
                   });
